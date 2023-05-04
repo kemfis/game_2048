@@ -5,6 +5,7 @@ html, body{
     padding: 0;
     border: 0;
 }
+
 .container{
     margin: 0 auto;
     width: 1408px;
@@ -29,9 +30,6 @@ header {
 }
 .header__left {
     align-items: center;
-}
-.header__center {
-    
 }
 .list__header {
     display: flex;
@@ -64,7 +62,7 @@ li:not(:first-child) {
     text-transform: uppercase;
 }
 
-======================
+*******************
 main{
     width: 100%;
     height: auto;
@@ -97,8 +95,6 @@ main{
     font-weight: 300;
     font-size: 70px;
     line-height: 72px;
-    
-    
 }
 .find__text{
     
@@ -118,8 +114,85 @@ main{
     justify-content: space-between;
 }
 .str__left{
+    transform: rotate(180deg);
+}
+
+/*CABINS..................*/
+.main__cabins{
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+}
+.cabins__info{
+    width: 50%;
+    box-sizing: border-box;
+    height: 100%;
+    padding-left: 147px;
+    padding-top: 87px;
+}
+.cabins__img{
+    width: 50%;
+    font-family: 'Open Sans';
+}
+img.info{
+    width: 100%;
+}
+h2.info{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #5B6460;
 
 }
-.str__left{
-    transform: rotate(180deg);
+p.info__text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    width: 465px;
+}
+
+a.button__in{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5B6460;
+    text-decoration: none;
+    border-bottom: 1px solid #5B6460;
+    padding-bottom: 4px
+}
+.cabins__photo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 145px;
+}
+/*FOREST*/
+.forest {
+    margin-top: 135px;
+    display: flex;
+    width: 100%;
+    height: 650px;
+}
+.forest__maps {
+    width: 50%;
+    height: 100%;
+    background-image: url(img/map.png);
+}
+.forest__map{
+    width: 100%;
+}
+.forest__text {
+    background: #E9ECE0;
+    width: 50%;
+}
+.forest__info {
+}
+.forest__texts {
+}
+.button__forest {
+}
+.button__in {
 }
