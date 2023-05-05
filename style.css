@@ -4,6 +4,7 @@ html, body{
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 .container{
@@ -187,12 +188,172 @@ a.button__in{
 .forest__text {
     background: #E9ECE0;
     width: 50%;
+    
 }
 .forest__info {
+    margin-top: 125px;
+    margin-left: 110px;
+    color: #5B6460;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
 }
 .forest__texts {
-}
-.button__forest {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    width: 465px;
+    margin-left: 110px;
+    color: #333333;
 }
 .button__in {
+    margin-left: 110px;
+}
+
+/*Facilities---------------------*/
+.main__facilities {
+    width: 100%;
+    background: #5B6460;
+    color: white;
+    height: 474px;
+}
+.facilities__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 85px;
+}
+.facilities__img {
+    margin: 0 auto;
+    display: flex;
+    width: 710px;
+    justify-content: space-between;
+    margin-top: 99px;
+}
+/*about us============================================*/
+.main__about {
+    width: 100%;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #5B6460;
+}
+.about__left {
+    width: 50%;
+}
+.about__right {
+    width: 50%;
+}
+.about__center {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    border-radius: 50%;
+    background-color: #E9ECE0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 44.5%;
+    top: 38%;
+    color: #333333;
+}
+/*footer============================================*/
+.footer {
+    background-color: #5B6460;
+    color: #FFFFFF;
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+.footer__left {
+    width: 50%;
+    margin-top: 95px;
+    margin-left: 147px;
+}
+.left__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+}
+.left__email {
+    margin-top: 40px;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
+    width: 420px;
+}
+.left__email > form > input[type=text]{
+    border: none;
+    background-color: #5B6460;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    width: 375px;
+}
+input[type=text]::placeholder{
+    color: white;
+    opacity: 0.7;
+    font-size: 14px;
+    font-style: italic;
+}
+.left__email > form > input[type=button]{
+    width: 36px;
+    border: none;
+    background-color: #5B6460;
+    outline: none;
+    background-image: url(img/footer.png);
+    
+}
+.left__text {
+    margin-top: 17px;
+    width: 420px;
+    opacity: 0.7;
+}
+.left__after {
+    margin-top: 70px;
+    opacity: 0.7;
+}
+.footer__right {
+    width: 50%;
+    margin-top: 95px;
+    opacity: 0.7;
+}
+.right__list {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    width: 455px;
+    font-family: 'DIN';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-left: 30px;
+}
+.list__terms {
+}
+.list__cence {
+}
+.list__priva {
+}
+.right__pay {
+    display: flex;
+    justify-content: space-around;
+    width: 455px;
+    margin-left: 65px;
+    margin-top: 60px;
+}
+.pay__pal {
+}
+.pay__master {
+}
+.pay__visa {
+}
+.pay__bank {
 }
