@@ -1,0 +1,49 @@
+@import "value.scss";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(51, 50, 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    #game-board{
+        --cell-size: 20vmin;//переменная для повторяющихся значений -ширина
+        --cell-gap: 2vmin; //для отступов
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(4, $valueSize); // 4 колонки в ширину 20 вмин
+        grid-template-rows: repeat(4, $valueSize); // 20вмин - 20% от окна браузера, у нас высоты
+        gap: $valueGap; // отступы между ячейками
+        border-radius: 1vmin;
+        .cell{
+            background-color: rgb(82, 80, 80);
+            border-radius: 1vmin;
+        }
+        .game__tile{
+            --y: 2; //переменные для изменения положения плиточки в js
+            --x: 1;
+            position: absolute;
+            top: calc(var(--y) * ($valueSize + $valueGap));
+            left: calc(var(--x) * ($valueSize + $valueGap));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 20vmin;
+            height: 20vmin;
+            border-radius: 1vmin;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 7.5vmin;
+            font-weight: bold;
+            background-color: white;
+            color: black;
+            transition: 100ms; // анимация перемещения плиточки
+            animation: show 200ms;
+            }
+        }
+        
+    }
