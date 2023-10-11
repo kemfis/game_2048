@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(51, 50, 50);
+    background-color: rgb(47, 43, 49);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@ body{
         gap: $valueGap; // отступы между ячейками
         border-radius: 1vmin;
         .cell{
-            background-color: rgb(82, 80, 80);
+            background-color: rgb(150, 144, 153);
             border-radius: 1vmin;
         }
         .tile{
@@ -39,7 +39,7 @@ body{
             font-family: Arial, Helvetica, sans-serif;
             font-size: 7.5vmin;
             font-weight: bold;
-            background-color: hsl(20, 65%, var(--bg-lightness));
+            background-color: hsl(100, 51%, var(--bg-lightness));
             color: hsl(20, 25%, var(--text-lightness));
             transition: 100ms; // анимация перемещения плиточки
             animation: show 200ms;
