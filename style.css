@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(47, 43, 49);
+  background-image: url(img/13.jpg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,7 +29,7 @@ body #game-board {
   border-radius: 1vmin;
 }
 body #game-board .cell {
-  background-color: rgb(150, 144, 153);
+  background-color: rgb(207, 192, 182);
   border-radius: 1vmin;
 }
 body #game-board .tile {
@@ -53,7 +53,7 @@ body #game-board .tile {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 7.5vmin;
   font-weight: bold;
-  background-color: hsl(100, 51%, var(--bg-lightness));
+  background-color: hsl(20, 61%, var(--bg-lightness));
   color: hsl(20, 25%, var(--text-lightness));
   -webkit-transition: 100ms;
   transition: 100ms;
